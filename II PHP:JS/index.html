@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="ru-RU">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, shrink-to-fit=no">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <title>Authorization</title>
+</head>
+<body>
+<main class="section">
+  <div class="container">
+    <h2 class="title">Log in</h2>
+    <form id="login_form" action="login.php" method="post">
+      <input type="text" name="username" placeholder="Username" required>
+      <input type="password" name="password" placeholder="Password" required>
+      <div class="notification_container">
+        <div class="error" id="error_container" style="display: none;"></div>
+      </div>
+      <button type="submit">Sign in</button>
+    </form>
+  </div>
+</main>
+<script src="js/script.js"></script>
+</body>
+</html>

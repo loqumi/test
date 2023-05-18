@@ -1,0 +1,78 @@
+@import "components/text.css";
+@import "components/button.css";
+@import "components/big_cards.css";
+@import "components/small_cards.css";
+@import "components/image.css";
+
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?55324309');
+    src: url('../font/fontello.eot?55324309#iefix') format('embedded-opentype'),
+    url('../font/fontello.woff?55324309') format('woff'),
+    url('../font/fontello.ttf?55324309') format('truetype'),
+    url('../font/fontello.svg?55324309#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+.icon {
+    width: 20px;
+    height: 20px;
+    font-family: "fontello", sans-serif;
+    font-style: normal;
+    font-weight: normal;
+    speak: never;
+    color: rgba(9, 98, 232, 1);
+
+    display: inline-block;
+    text-decoration: inherit;
+    margin-right: .2em;
+    text-align: center;
+
+    font-variant: normal;
+    text-transform: none;
+
+    line-height: 1em;
+
+    margin-left: .2em;
+
+    font-size: 120%;
+
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+
+}
+.header {
+    overflow: hidden;
+    background: rgb(203,236,255);
+}
+.section {
+    padding: 16px;
+}
+section {
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+@media (min-width: 480px){
+    .section {
+        padding: 20px;
+    }
+}
+@media (min-width: 640px){
+    .section {
+        padding: 30px;
+    }
+}
+@media (min-width: 960px){
+    .section {
+        padding: 40px;
+    }
+}
+@media (min-width: 1024px){
+    .section {
+        padding: 60px;
+    }
+    .header{
+        background: linear-gradient(180deg, rgba(203,236,255,1) 95%, rgba(255,255,255,1) 95%);
+    }
+}
